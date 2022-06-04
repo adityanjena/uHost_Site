@@ -1,0 +1,173 @@
+
+#product-overview{
+    background-image: url("/diving-deeper-05.01-background-image/freedom.jpg");
+    background-size:cover;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    /*background-image: linear-gradient(to left top ,red,blue,yellow);*/
+    margin-top: 43px;
+    height: 528px;
+    padding: 10px;
+    position: relative;
+}
+#product-overview h1{
+    color:white;
+    font-family: 'Anton', sans-serif;
+    position:absolute;
+    bottom:3%;
+    left: 3%;
+}
+
+.section-title{
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.plan-list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 16px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.plan ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 8px 0px;
+}
+.plan__highlighted{
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.plan__annotation{
+    background-color:white;
+    color: #19b84c;
+    box-shadow: 2px 2px 2px 2px black ;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.plan__title{
+    color: #0e4f1f;
+}
+
+.plan__price{
+    color: #858585;
+}
+
+.plan__highlighted .plan__title{
+    color: white;
+}
+
+.plan__highlighted .plan__price{
+    color:#0e4f1f
+}
+
+
+#key-features{
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title{
+    color: white;
+}
+
+.key-feature__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.key-feature{
+    display: inline-block;
+    width: 30%;
+    color: white;
+
+}
+
+.key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    height: 128px;
+    margin: auto;
+    padding: 20px;
+}
+
+.key-feature__description{
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+
+}
+
+.modal {
+    position: fixed;
+    display:none ;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  .modal__actions {
+    text-align: center;
+  }
+  
+  .modal__action {
+    border: 1px solid #0e4f1f;
+    background: #0e4f1f;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .modal__action:hover,
+  .modal__action:active {
+    background: #2ddf5c;
+    border-color: #2ddf5c;
+  }
+  
+  .modal__action--negative {
+    background: red;
+    border-color: red;
+  }
+  
+  .modal__action--negative:hover,
+  .modal__action--negative:active {
+    background: #ff5454;
+    border-color: #ff5454;
+  }
